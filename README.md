@@ -17,3 +17,7 @@ riscv64-linux-gnu-gcc -march=rv64g -static -nostdlib -nostartfiles fibo.s && \
 riscv64-linux-gnu-objcopy -O binary --only-section=.text a.out prog.bin && \
 rm a.out && mv prog.bin ../../fibo.bin
 ```
+
+---
+
+Note: To be improved.
